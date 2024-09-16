@@ -1,0 +1,18 @@
+{
+    "subgroup": "gender_",
+    "discrete": true,
+    "label_name":"hospitalization_flag",
+    "favorable_classes": [1,1],
+    "protected_attribute_names": ["Gender_0","Gender_1"],
+    "privileged_classes": [[0],[1]],
+    "protected_feature_name": "Gender_0",
+    "privileged_feature_name": "Gender_1",
+    "protected_feature_val": 1,
+    "privileged_feature_val": 1,
+    "is_mask_attr": false,
+    "masked_attrs": ["Gender_0","Gender_1"],
+    "fair_measure": ["protected_PPV","privileged_PPV","protected_FPR","privileged_FPR",
+    "protected_TPR", "privileged_TPR","protected_NPV","privileged_NPV","protected_te",
+    "privileged_te","protected_FNR","privileged_FNR","protected_ACC","privileged_ACC"],
+    "perf_measure": ["F1-Score", "AUROC", "Recall", "Precision", "Specificity"]
+}

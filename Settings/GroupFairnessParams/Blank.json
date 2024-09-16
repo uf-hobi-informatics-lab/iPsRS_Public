@@ -1,0 +1,4 @@
+{
+    "subgroup": "all_",
+    "perf_measure": ["F1-Score", "AUROC", "Recall", "Precision", "Specificity"]
+}

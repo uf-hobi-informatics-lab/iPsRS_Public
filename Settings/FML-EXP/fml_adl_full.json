@@ -1,0 +1,26 @@
+{
+    "model_name":"fmladl_fullsdoh_",
+    "model_alg":"neuralnet_",
+    "root_dir":"/blue/bianjiang/huangyu/fairness_hp",
+    "processed_dir":"Preprocessed",
+    "models_dir":"Models",
+    "output_roc_dir":"Output/AUROC",
+    "output_shap_dir":"Output/SHAP",
+    "output_score_dir":"Output/SCORE",
+    "input_features":"X_full.csv",
+    "input_full_features":"X_full.csv",
+    "input_labels": "Y.csv",
+    "independent_full_features":"Independent_X_full.csv",
+    "independent_labels": "Independent_Y.csv",
+    "n_run" : 100,
+    "model_params":{
+        "num_epochs":100,
+        "classifier_num_hidden_units":100,
+        "learning_rate":0.001,
+        "seed":42
+    },
+    "setting_params":{
+        "imb_type": "rus",
+        "random_state": 42
+    }
+}

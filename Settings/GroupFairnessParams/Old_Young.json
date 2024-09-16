@@ -1,0 +1,19 @@
+{
+    "subgroup": "Old_Young_",
+    "discrete": false,
+    "cutoff": 65,
+    "label_name":"hospitalization_flag",
+    "favorable_classes": [1,1],
+    "protected_attribute_names": ["Young","Old"],
+    "privileged_classes": [[0],[1]],
+    "protected_feature_name": "Age",
+    "privileged_feature_name": "Age",
+    "protected_feature_val": 1,
+    "privileged_feature_val": 1,
+    "is_mask_attr": false,
+    "masked_attrs": ["Age"],
+    "fair_measure": ["protected_PPV","privileged_PPV","protected_FPR","privileged_FPR",
+    "protected_TPR", "privileged_TPR","protected_NPV","privileged_NPV","protected_te",
+    "privileged_te","protected_FNR","privileged_FNR","protected_ACC","privileged_ACC"],
+    "perf_measure": ["F1-Score", "AUROC", "Recall", "Precision", "Specificity"]
+}

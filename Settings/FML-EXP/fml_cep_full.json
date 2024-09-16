@@ -1,0 +1,18 @@
+{
+    "model_name":"fmlcep_full_",
+    "root_dir":"/blue/bianjiang/huangyu/fairness_hp",
+    "processed_dir":"Preprocessed",
+    "models_dir":"Models",
+    "output_roc_dir":"Output/AUROC",
+    "output_shap_dir":"Output/SHAP",
+    "output_score_dir":"Output/SCORE",
+    "input_features":"X_full.csv",
+    "input_full_features":"X_full.csv",
+    "input_labels": "Y.csv",
+    "independent_full_features":"Independent_X_full.csv",
+    "independent_labels": "Independent_Y.csv",
+    "n_run" : 100,
+    "not_imp_val": false,
+    "class_thresh":0.5,
+    "cost_constraint":"weighted"
+}

@@ -1,0 +1,18 @@
+{
+    "subgroup": "hispanic_white_",
+    "discrete": true,
+    "label_name":"hospitalization_flag",
+    "favorable_classes": [1,1],
+    "protected_attribute_names": ["Race_2","Race_0"],
+    "privileged_classes": [[0],[1]],
+    "protected_feature_name": "Race_2",
+    "privileged_feature_name": "Race_0",
+    "protected_feature_val": 1,
+    "privileged_feature_val": 1,
+    "is_mask_attr": false,
+    "masked_attrs": ["Race_2","Race_1", "Race_0","Race_3","Race_4"],
+    "fair_measure": ["protected_PPV","privileged_PPV","protected_FPR","privileged_FPR",
+    "protected_TPR", "privileged_TPR","protected_NPV","privileged_NPV","protected_te",
+    "privileged_te","protected_FNR","privileged_FNR","protected_ACC","privileged_ACC"],
+    "perf_measure": ["F1-Score", "AUROC", "Recall", "Precision", "Specificity"]
+}
