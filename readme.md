@@ -25,7 +25,7 @@ Codebase for the iPsRS Fairness project.
 ./2.parameter_checking_scheduler.sh
 ./3.bootstrapping_scheduler.sh
 ./4.assessment_scheduler.sh
-./5.5.unfairness_mitigation_scheduler.sh
+./5.unfairness_mitigation_scheduler.sh
 ...
 ```
 
